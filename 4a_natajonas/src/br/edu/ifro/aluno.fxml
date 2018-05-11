@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.AlunoController">
+   <children>
+      <Label layoutX="212.0" layoutY="89.0" text="NOME" />
+      <TextField fx:id="txtNome" layoutX="172.0" layoutY="147.0" />
+      <Button layoutX="140.0" layoutY="219.0" mnemonicParsing="false" onAction="#salvar" text="SAVE ME" />
+      <Button layoutX="292.0" layoutY="219.0" mnemonicParsing="false" onAction="#fechar" text="FECHAR" />
+   </children>
+</AnchorPane>
